@@ -156,14 +156,13 @@ export default async function Video({ params }: PageProps) {
         </section>
             <iframe
                 className="w-full h-[30vh] md:h-[55vh] lg:h-[70vh]"
-                src={`https://${upstream}/e/${file.filecode}`}
+                src={`https://doodstream.com/e/${file.filecode}`}
                 scrolling="no"
                 title={file.title}
                 frameBorder={0}
                 allowFullScreen={true}
             ></iframe>
- <Script src="https://js.juicyads.com/jp.php?c=947403z2v256s2x2w264x294&u=http%3A%2F%2Fwww.juicyads.rocks"/>
-           <Card className="mx-2 mb-8">
+            <Card className="mx-2 mb-8">
                 <CardHeader>
                     <CardTitle className="text-xl md:text-3xl font-bold">
                         {file.title}
@@ -214,6 +213,7 @@ export default async function Video({ params }: PageProps) {
                         </Table>
                     </div>
                 </CardContent>
+<Script src="https://js.juicyads.com/jp.php?c=947403z2v256s2x2w264x294&u=http%3A%2F%2Fwww.juicyads.rocks"/>
             </Card>
             <h2 className="text-2xl font-bold text-center my-4">
                 Related Video {file.title}
